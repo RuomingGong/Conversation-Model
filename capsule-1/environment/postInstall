@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -e
+
+# system packages
+apt-get update
+apt-get install -y ffmpeg libsndfile1
+
+# upgrade pip first
+python -m pip install --upgrade pip setuptools wheel
+
+# install python packages
+python -m pip install \
+    numpy \
+    pandas \
+    soundfile \
+    ffmpeg-python \
+    matplotlib \
+    scikit-learn \
+    pyannote.audio \
+    seaborn \
+    openpyxl
+

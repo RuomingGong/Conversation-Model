@@ -1,0 +1,34 @@
+metadata_version: 1
+name: Do words matter? A mathematical model for turn taking in group discussions (Jupyter
+  Notebook)
+description: We develop and analyze a mathematical model of conversation dynamics
+  that predicts speaking time and interaction patterns among participants without
+  using speech content. Using automatically parsed audio data from 159 group discussions
+  across eleven scientific conferences, we show that key aspects of turn-taking behavior
+  can be captured by a simple mechanistic model independent of conversational semantics.
+tags:
+- complex systems analysis
+- social interaction
+- mathematical modeling
+- dynamical systems
+- turn taking
+- conversation dynamics
+authors:
+- name: Ruoming Gong
+  affiliations:
+  - name: Northwestern University
+- name: Andrew L. Feig
+  affiliations:
+  - name: Research Corporation for Science Advancement
+- name: Richard J. Wiener
+  affiliations:
+  - name: Research Corporation for Science Advancement
+- name: Abhishek Shivaram
+  affiliations:
+  - name: Research Corporation for Science Advancement
+- name: Daniel M. Abrams
+  affiliations:
+  - name: Northwestern University
+corresponding_contributor:
+  name: Ruoming Gong
+  email: ruoming.gong@northwestern.edu
